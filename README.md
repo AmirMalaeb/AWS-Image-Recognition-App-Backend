@@ -74,21 +74,6 @@ Ensure the Lambda function execution role has the following permissions:
       "Resource": "arn:aws:dynamodb:us-east-1:YOUR_ACCOUNT_ID:table/ImageMetadata"
     }
   ]
-}```
-
-
-### Step 8: Frontend Application
-
-
-The frontend application is a simple React app that allows users to upload images and get the labels for their picture. I haven't done a frotend for this but feel free to :)
-
-### Final Notes
-
-	1.	Deploying the Frontend: Make sure to host your React app on a static web hosting service, such as AWS Amplify, S3, or another hosting provider.
-	2.	Testing: Test the entire flow by uploading images through the frontend, ensuring they are processed by the Lambda function, and verifying the results in DynamoDB.
-	3.	Security: Ensure your IAM roles and policies follow the principle of least privilege.
-
-### Thank you feel free to fork, use, or modify. 
-
+}
 
 
